@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightsalmon;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background:url('/img/kisspng-clip-art-product-line-2018-thanksgiving-png-fall-leaves-corner-transpa-5b6b03bac0a174.863366241533739962789.png'),url('/img/aesthetic.jpg');
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-repeat:no-repeat;
+}
+.banner .navbar{
+    margin-top: 4%;
+}
+.banner .navbar-brand{
+    color: aquamarine;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 10%;
+}
+.banner .nav{
+    margin-right: 10%;
+}
+.banner .nav li a{
+    color:aquamarine;
+    font-size: 1.2em;
+}
+.banner .info{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 700;
+    color: lightsalmon;
+    letter-spacing: 2px;
+}
+.banner .info p{
+    font-size: 2em;
+    font-weight: 500;
+    color: lightsalmon;
+    letter-spacing: 2px;
+}
+.banner .info a{
+       margin-left: 50%;
+       transform: translateX(-50%);
+       color: peru;
+       background: greenyellow;
+       padding: 10px 20px;
+       font-size: 2em;
+       font-weight: 600;
+}
+.banner .info a:hover{
+    background: #e91e63;
+}
